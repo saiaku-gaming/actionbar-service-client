@@ -11,9 +11,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class RemoveActionbarActionParameter {
+public class GetActionbarParameter {
 	@NotBlank
 	@CheckLowercase
 	private String characterName;
-	private Integer index;
 }

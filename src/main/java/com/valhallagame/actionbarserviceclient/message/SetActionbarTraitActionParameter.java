@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class SetActionbarTraitActionParameter {
 	@NotBlank
 	@CheckLowercase
-	private String username;
+	private String characterName;
 	private Integer index;
 	private String traitName;
 }
